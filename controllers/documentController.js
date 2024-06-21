@@ -32,6 +32,10 @@ export const uploadDocument = async (req, res) => {
         res.status(200).json({
             message: 'Documento procesado y guardado exitosamente',
             fileId,
+            legalRepresentative,
+            alternateLegalRepresentative,
+            societyActivity,
+            ciiuCode
         });
     } catch (error) {
         res.status(500).json({ error: error.message });
