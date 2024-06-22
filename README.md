@@ -42,6 +42,12 @@ This project is a backend application that allows uploading, processing, and sto
 
 2. The application will be running at `http://localhost:3000`.
 
+
+##  FRONTEND: `https://github.com/ChantalPli/frontend-pdf`
+
+
+
+
 ## Project Structure
 
 ```plaintext
@@ -63,4 +69,8 @@ project-root/
 │   └── db.js
 ├── .env
 └── app.js
-# pdf
+
+#pdf
+
+
+
